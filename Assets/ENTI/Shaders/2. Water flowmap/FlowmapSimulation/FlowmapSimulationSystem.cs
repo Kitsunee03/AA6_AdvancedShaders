@@ -21,46 +21,20 @@ public class FlowmapSimulationSystem : MonoBehaviour
         RenderTexture source = swap ? flowA : flowB;
         RenderTexture target = swap ? flowB : flowA;
 
-        // Convertir player a UV
+        // Player to UV
         Vector3 viewport = Camera.main.WorldToViewportPoint(player.position);
 
-        flowmapSimulationMat.SetTexture(
-            "_PreviousFrame",
-            source
-        );
+        // parameteres
+        flowmapSimulationMat.SetTexture("_PreviousFrame", source);
+        flowmapSimulationMat.SetVector("_Position", new(viewport.x, viewport.y, 0, 0));
+        flowmapSimulationMat.SetFloat("_PlayerRadius", radius);
+        flowmapSimulationMat.SetFloat("_PlayerHardness", hardness);
 
-        flowmapSimulationMat.SetVector(
-            "_Position",
-            new(
-                viewport.x,
-                viewport.y,
-                0,
-                0
-            )
-        );
+        // fullscreen pass
+        Graphics.Blit(source, target, flowmapSimulationMat);
 
-        flowmapSimulationMat.SetFloat(
-            "_PlayerRadius",
-            radius
-        );
-
-        flowmapSimulationMat.SetFloat(
-            "_PlayerHardness",
-            hardness
-        );
-
-        // FULLSCREEN PASS
-        Graphics.Blit(
-            source,
-            target,
-            flowmapSimulationMat
-        );
-
-        // Global texture
-        Shader.SetGlobalTexture(
-            "_Flowmap",
-            target
-        );
+        // global texture
+        Shader.SetGlobalTexture("_Flowmap", target);
 
         swap = !swap;
     }

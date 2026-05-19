@@ -24,7 +24,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _PreviousFrame:
-        m_Texture: {fileID: 8400000, guid: 0c1862221aa63b147ba7a97fc5499643, type: 2}
+        m_Texture: {fileID: 8400000, guid: e67dc4a6689bf3f4e944d07b13fa96cd, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -44,7 +44,7 @@ Material:
     - _PlayerHardness: 1
     - _PlayerRadius: 0.1
     m_Colors:
-    - _Position: {r: 0.5072475, g: 0.1441296, b: 0, a: 0}
+    - _Position: {r: 0.438269, g: 0.3682186, b: 0, a: 0}
     - _SimulationCenter: {r: 0, g: 0, b: 0, a: 0}
     - _SimulationSize: {r: 0, g: 0, b: 0, a: 0}
     - _Velocity: {r: 0, g: 0, b: 0, a: 0}
