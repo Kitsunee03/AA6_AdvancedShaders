@@ -3,13 +3,16 @@ using UnityEngine;
 [RequireComponent(typeof(Renderer))]
 public class MushroomColorRandomizer : MonoBehaviour
 {
-    static readonly int ID_Color = Shader.PropertyToID("_Color");
+    private static readonly int ColorID = Shader.PropertyToID("_Color");
 
     private void Start()
     {
-        var mpb = new MaterialPropertyBlock();
-        GetComponent<Renderer>().GetPropertyBlock(mpb);
-        mpb.SetColor(ID_Color, Random.ColorHSV(0f, 1f, 0.5f, 1f, 0.5f, 1f));
-        GetComponent<Renderer>().SetPropertyBlock(mpb);
+        MaterialPropertyBlock mpb = new();
+        Renderer rend = GetComponent<Renderer>();
+
+        // Leer el bloque existente (importante para no sobreescribir otros valores)
+        rend.GetPropertyBlock(mpb);
+        mpb.SetColor(ColorID, Random.ColorHSV(0f, 1f, 0.5f, 1f, 0.7f, 1f));
+        rend.SetPropertyBlock(mpb);
     }
 }

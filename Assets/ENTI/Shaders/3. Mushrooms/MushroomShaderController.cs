@@ -1,19 +1,25 @@
 using UnityEngine;
 
-public class MushroomShaderController : MonoBehaviour
+public class MushroomController : MonoBehaviour
 {
-    [SerializeField] private Transform player;
-    [SerializeField, Range(0, 2)] public float affectRadius = 1.18f;
-    [SerializeField, Range(0, 2)] public float affectIntensity = 0.5f;
+    private static readonly int PlayerPosID = Shader.PropertyToID("_PlayerPosition");
+    private static readonly int RadiusID = Shader.PropertyToID("_AffectRadius");
+    private static readonly int IntensityID = Shader.PropertyToID("_AffectIntensity");
+    private static readonly int ContrastID = Shader.PropertyToID("_AffectContrast");
 
-    static readonly int ID_Pos = Shader.PropertyToID("_PlayerPosition");
-    static readonly int ID_Radius = Shader.PropertyToID("_AffectRadius");
-    static readonly int ID_Intensity = Shader.PropertyToID("_AffectIntensity");
+    [Header("References"), SerializeField] private Transform player;
+
+    [Header("Config"), SerializeField, Range(0, 3)]
+    private float affectRadius = 3f;
+
+    [SerializeField, Range(0, 1f)] private float affectIntensity = 1f;
+    [SerializeField, Range(0.1f, 5f)] private float affectContrast = 1f;
 
     private void Update()
     {
-        Shader.SetGlobalVector(ID_Pos, player.position);
-        Shader.SetGlobalFloat(ID_Radius, affectRadius);
-        Shader.SetGlobalFloat(ID_Intensity, affectIntensity);
+        Shader.SetGlobalVector(PlayerPosID, player.position);
+        Shader.SetGlobalFloat(RadiusID, affectRadius);
+        Shader.SetGlobalFloat(IntensityID, affectIntensity);
+        Shader.SetGlobalFloat(ContrastID, affectContrast);
     }
 }
