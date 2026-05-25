@@ -4290,13 +4290,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 107686133}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 188.19041, y: 8.52, z: 205.46}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 584867688}
-  m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1001 &111575925
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6380,12 +6380,14 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4318760f36fac1046b618e4860faa29c, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlowmapSimulationController
+  m_EditorClassIdentifier: 
   flowmapSimulationMat: {fileID: 2100000, guid: 186a306cfeda7404aa91531c54c99d4e, type: 2}
   flowA: {fileID: 8400000, guid: 0c1862221aa63b147ba7a97fc5499643, type: 2}
   flowB: {fileID: 8400000, guid: e67dc4a6689bf3f4e944d07b13fa96cd, type: 2}
   radius: 0.1
   hardness: 1
+  simulationCenter: {x: 188.19041, y: 8.52, z: 205.46}
+  simulationSize: {x: 10, y: 1, z: 10}
 --- !u!1001 &154047117
 PrefabInstance:
   m_ObjectHideFlags: 0

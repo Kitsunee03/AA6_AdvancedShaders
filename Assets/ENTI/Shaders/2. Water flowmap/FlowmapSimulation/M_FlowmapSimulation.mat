@@ -44,9 +44,9 @@ Material:
     - _PlayerHardness: 1
     - _PlayerRadius: 0.1
     m_Colors:
-    - _Position: {r: 0.41911936, g: 0.41113162, b: 0, a: 0}
-    - _SimulationCenter: {r: 0, g: 0, b: 0, a: 0}
-    - _SimulationSize: {r: 0, g: 0, b: 0, a: 0}
+    - _Position: {r: -5.1114655, g: 0.8738861, b: 0, a: 0}
+    - _SimulationCenter: {r: 188.19041, g: 8.52, b: 205.46, a: 0}
+    - _SimulationSize: {r: 1, g: 1, b: 1, a: 0}
     - _Velocity: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
