@@ -3943,6 +3943,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1690749160}
     m_Modifications:
     - target: {fileID: 100000, guid: 283c6652a19114340bc1d9d50eec4d52, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 283c6652a19114340bc1d9d50eec4d52, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -4464,6 +4468,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a5aac454b4cd5b4408d4131d8eff851a, type: 3}
       propertyPath: m_Name
       value: Shrooms3 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a5aac454b4cd5b4408d4131d8eff851a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a5aac454b4cd5b4408d4131d8eff851a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10110,6 +10118,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a98318926d746c347a4e443946273241, type: 3}
       propertyPath: m_Name
       value: Shrooms1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a98318926d746c347a4e443946273241, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a98318926d746c347a4e443946273241, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -17778,6 +17790,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1690749160}
     m_Modifications:
     - target: {fileID: 100000, guid: a5aac454b4cd5b4408d4131d8eff851a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a5aac454b4cd5b4408d4131d8eff851a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -17812,6 +17828,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: a5aac454b4cd5b4408d4131d8eff851a, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: a5aac454b4cd5b4408d4131d8eff851a, type: 3}
+      propertyPath: m_RenderingLayerMask
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: a5aac454b4cd5b4408d4131d8eff851a, type: 3}
       propertyPath: m_Materials.Array.size
@@ -17929,6 +17949,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1521365224}
     m_Modifications:
+    - target: {fileID: 100000, guid: 4a915dad0e7dd944e95f76e8ae9bad04, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 4a915dad0e7dd944e95f76e8ae9bad04, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -19895,7 +19919,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 51ffdcced8a47e44989761520d635e1c, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 51ffdcced8a47e44989761520d635e1c, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -25238,6 +25262,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1521365224}
     m_Modifications:
     - target: {fileID: 100000, guid: 3298c74ae9bf7ce4185ece13a4fcf2c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3298c74ae9bf7ce4185ece13a4fcf2c0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -25707,6 +25735,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a5aac454b4cd5b4408d4131d8eff851a, type: 3}
       propertyPath: m_Name
       value: Shrooms3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a5aac454b4cd5b4408d4131d8eff851a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a5aac454b4cd5b4408d4131d8eff851a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -30802,7 +30834,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 51ffdcced8a47e44989761520d635e1c, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 51ffdcced8a47e44989761520d635e1c, type: 3}
       propertyPath: m_RootOrder
@@ -32192,6 +32224,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 283c6652a19114340bc1d9d50eec4d52, type: 3}
       propertyPath: m_Name
       value: Shrooms2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 283c6652a19114340bc1d9d50eec4d52, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 283c6652a19114340bc1d9d50eec4d52, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -35782,6 +35818,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 283c6652a19114340bc1d9d50eec4d52, type: 3}
       propertyPath: m_Name
       value: Shrooms2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 283c6652a19114340bc1d9d50eec4d52, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 283c6652a19114340bc1d9d50eec4d52, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -39731,6 +39771,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 55321c57b40885b4fa02cd582bf698bd, type: 3}
       propertyPath: m_Name
       value: Shrooms4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 55321c57b40885b4fa02cd582bf698bd, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 55321c57b40885b4fa02cd582bf698bd, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -50827,6 +50871,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1521365224}
     m_Modifications:
     - target: {fileID: 100000, guid: 2c565734b35fec242b08348fd3da5bb6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2c565734b35fec242b08348fd3da5bb6, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -52739,6 +52787,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 55321c57b40885b4fa02cd582bf698bd, type: 3}
       propertyPath: m_Name
       value: Shrooms4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 55321c57b40885b4fa02cd582bf698bd, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 55321c57b40885b4fa02cd582bf698bd, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -60385,6 +60437,76 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 80e93bebfbbd6da409d3e9e3c7049540, type: 3}
   m_PrefabInstance: {fileID: 1518630573}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1648004525
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1648004526}
+  - component: {fileID: 1648004527}
+  m_Layer: 0
+  m_Name: SnowController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1648004526
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648004525}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2044847262}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1648004527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648004525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5629845f66579b34db581360c5c9c8a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.25
+  maxSnow: 1
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1648817575
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60964,6 +61086,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 283c6652a19114340bc1d9d50eec4d52, type: 3}
       propertyPath: m_Name
       value: Shrooms2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 283c6652a19114340bc1d9d50eec4d52, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 283c6652a19114340bc1d9d50eec4d52, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -62899,6 +63025,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1690749160}
     m_Modifications:
+    - target: {fileID: 100000, guid: 55321c57b40885b4fa02cd582bf698bd, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 55321c57b40885b4fa02cd582bf698bd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
@@ -70866,6 +70996,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1690749160}
     m_Modifications:
     - target: {fileID: 100000, guid: a98318926d746c347a4e443946273241, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a98318926d746c347a4e443946273241, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -74559,6 +74693,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1521365224}
     m_Modifications:
     - target: {fileID: 100000, guid: 51ce05700f7a5314ab15c08c9c018da9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 51ce05700f7a5314ab15c08c9c018da9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -75664,6 +75802,38 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &2044847261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2044847262}
+  m_Layer: 0
+  m_Name: 1. Snow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2044847262
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044847261}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1648004526}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2045579967
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78961,6 +79131,10 @@ PrefabInstance:
       value: Shrooms1 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a98318926d746c347a4e443946273241, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a98318926d746c347a4e443946273241, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -79156,5 +79330,6 @@ SceneRoots:
   - {fileID: 615389336}
   - {fileID: 1891761699}
   - {fileID: 482148304}
+  - {fileID: 2044847262}
   - {fileID: 584867688}
   - {fileID: 1690749160}
