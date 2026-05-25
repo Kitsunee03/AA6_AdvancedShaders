@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Snow
+  m_Name: M_Snow
   m_Shader: {fileID: -6465566751694194690, guid: d1303e0cdc770ab4a88a1e8150a7cae8, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
