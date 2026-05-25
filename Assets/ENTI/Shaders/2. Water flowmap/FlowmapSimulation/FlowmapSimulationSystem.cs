@@ -2,6 +2,11 @@ using UnityEngine;
 
 public class FlowmapSimulationSystem : MonoBehaviour
 {
+    private static readonly int PreviousFrameID = Shader.PropertyToID("_PreviousFrame");
+    private static readonly int PositionID = Shader.PropertyToID("_Position");
+    private static readonly int PlayerRadiusID = Shader.PropertyToID("_PlayerRadius");
+    private static readonly int PlayerHardnessID = Shader.PropertyToID("_PlayerHardness");
+    private static readonly int Flowmap = Shader.PropertyToID("_Flowmap");
     [SerializeField] private Material flowmapSimulationMat;
 
     [SerializeField] private RenderTexture flowA, flowB;
@@ -10,10 +15,12 @@ public class FlowmapSimulationSystem : MonoBehaviour
 
     private bool swap;
     private Transform player;
+    private Camera mainCamera;
 
     private void Awake()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        mainCamera = Camera.main;
     }
 
     private void Update()
@@ -22,19 +29,19 @@ public class FlowmapSimulationSystem : MonoBehaviour
         RenderTexture target = swap ? flowB : flowA;
 
         // Player to UV
-        Vector3 viewport = Camera.main.WorldToViewportPoint(player.position);
+        Vector3 viewport = mainCamera.WorldToViewportPoint(player.position);
 
-        // parameteres
-        flowmapSimulationMat.SetTexture("_PreviousFrame", source);
-        flowmapSimulationMat.SetVector("_Position", new(viewport.x, viewport.y, 0, 0));
-        flowmapSimulationMat.SetFloat("_PlayerRadius", radius);
-        flowmapSimulationMat.SetFloat("_PlayerHardness", hardness);
+        // parameters
+        flowmapSimulationMat.SetTexture(PreviousFrameID, source);
+        flowmapSimulationMat.SetVector(PositionID, new Vector4(viewport.x, viewport.y, 0, 0));
+        flowmapSimulationMat.SetFloat(PlayerRadiusID, radius);
+        flowmapSimulationMat.SetFloat(PlayerHardnessID, hardness);
 
         // fullscreen pass
         Graphics.Blit(source, target, flowmapSimulationMat);
 
         // global texture
-        Shader.SetGlobalTexture("_Flowmap", target);
+        Shader.SetGlobalTexture(Flowmap, target);
 
         swap = !swap;
     }

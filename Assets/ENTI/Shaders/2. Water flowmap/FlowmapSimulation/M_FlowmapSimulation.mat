@@ -44,7 +44,7 @@ Material:
     - _PlayerHardness: 1
     - _PlayerRadius: 0.1
     m_Colors:
-    - _Position: {r: 0.41911936, g: 0.41113162, b: 0, a: 0}
+    - _Position: {r: 0.5349109, g: 0.49733558, b: 0, a: 0}
     - _SimulationCenter: {r: 0, g: 0, b: 0, a: 0}
     - _SimulationSize: {r: 0, g: 0, b: 0, a: 0}
     - _Velocity: {r: 0, g: 0, b: 0, a: 0}
